@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+  <TextView
+    android:id="@+id/Componentes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Componentes Basicos"
+    android:textSize="25sp" />
+
+  <EditText
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:hint="Ingrese el nombre"
+    android:inputType="text" />
+
+  <TextView
+    android:id="@+id/RadioButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RadioButton"
+    android:textSize="25sp" />
+
+  <RadioGroup
+    android:id="@+id/radio_group"
+    android:layout_marginTop="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RadioButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/radio1"
+      android:text="radio1" />
+
+    <RadioButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/radio2"
+      android:text="radio2" />
+  </RadioGroup>
+
+  <TextView
+    android:id="@+id/checkbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="CheckBox"
+    android:textSize="25sp" />
+
+  <CheckBox
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/chexbox1"
+    android:text="Check1" />
+
+  <CheckBox
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/chexbox2"
+    android:text="Check2" />
+
+  <TextView
+    android:id="@+id/ToogleButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ToogleButton"
+    android:textSize="25sp" />
+
+  <Switch
+    android:id="@+id/Swith"
+    android:textOn="On"
+    android:textOff="off"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+  <TextView
+    android:id="@+id/image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Imagen"
+    android:textSize="25sp" />
+
+  <ImageButton
+    android:id="@+id/btnImagen"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_margin="3dp"
+    android:src="@drawable/ic_launcher_foreground" />
+
+
+  <TextView
+      android:id="@+id/Calcular"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Button"
+      android:textSize="25sp" />
+
+  <Button
+        android:id="@+id/btncalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_margin="20dp" />
+
+</LinearLayout>
